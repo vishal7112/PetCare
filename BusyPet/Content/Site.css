@@ -1,0 +1,223 @@
+﻿html {
+    background-color: #FFF;
+    color: #FFF;
+    font-size: 16px;
+}
+
+body {
+    min-height: 1350px;
+    background-image: url(/Images/Background-WhiteSq.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: cover;
+    justify-content: center;
+}
+
+footer {
+    margin-top: 40px;
+    text-align: left;
+    color: #272727;
+    opacity: 0.7;
+}
+
+/* Wrapping elements */
+
+.div-content {
+    background-color: #efefea;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    margin-bottom: 30px;
+}
+
+    .div-content p {
+        margin: 0;
+    }
+
+.jumbo {
+    background-color: #FED766 !important;
+    border: none;
+    outline: none;
+}
+
+.card {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.pet-tile {
+    min-height: 150px;
+    text-align: center;
+    background-color: #009FB7 !important;
+    color: white;
+}
+
+.pet-tile:hover {
+    background-color: #FED766 !important;
+    color: #272727 !important;
+}
+
+.sign-up input {
+    width: 50%;
+}
+
+/* Fonts */
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+h3, h4, h5 p, button {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+input, select {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100%;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+a {
+    color: #009FB7 !important;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+    a:hover {
+        color: #272727 !important;
+        text-shadow: 1px 1px 1px #FED766;
+        text-decoration: none !important;
+        cursor: pointer;
+    }
+
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+.site-name {
+    color: #272727 !important;
+}
+
+li {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.ul-no-decoration {
+    list-style: none;
+    padding: 0;
+}
+
+.li-no-decoration {
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* Buttons */
+.btn, .btn-primary {
+    border: none !important;
+    outline: none;
+    color: #272727 !important;
+    background-color: #FED766 !important;
+}
+
+    .btn:hover, .btn-primary:hover {
+        border: none !important;
+        outline: none;
+        color: #FFF !important;
+        background-color: #009FB7 !important;
+    }
+
+/* Navigation bar */
+.navbar {
+    padding: 5px;
+    background-color: #FFF;
+    color: #272727;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navbar-list {
+    text-align: right;
+}
+
+.nav-link {
+    text-align: right;
+    display: inline-block;
+    color: #272727 !important;
+}
+
+.exclusive-nav-item {
+    display: none;
+}
+
+.logo-image {
+    max-width: 40px !important;
+    min-width: 20px;
+}
+
+/* Input and forms */
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #272727;
+}
+
+input,
+select,
+textarea,
+select {
+    max-width: 280px;
+    border: none;
+    box-shadow: none;
+    border-bottom: 1px solid;
+    color: #272727;
+    outline: none;
+    background: none;
+    width: 100%;
+}
+
+    input:focus, input:checked, input:after,
+    select:focus, select:active, select:after,
+    textarea:focus, textarea:active, textarea:after,
+    input[type="text"]:focus, select:focus, select:active {
+        border: none;
+        border-bottom: 1px solid #FED766;
+        box-shadow: #FED766 1px 1px unset;
+        color: #009FB7;
+        outline: #009FB7;
+        cursor: pointer;
+        background: none;
+    }
+
+    input[type=checkbox] {
+        text-align: left;
+        margin: 0;
+        padding: 5px;
+        width: auto;
+    }
+
+/* Responsive: Portrait tablets and up */
+/*
+@media screen and (min-width: 768px) {
+
+}
+*/

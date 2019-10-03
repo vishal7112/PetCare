@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusyPet", "BusyPet\BusyPet.csproj", "{A98834AD-D03B-4867-AE73-11D3D55CAA6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusyPet.Tests", "BusyPet.Tests\BusyPet.Tests.csproj", "{C1427D11-C2E9-42C7-8649-F0C9CAD5AC7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Scripts", "SQL Scripts", "{E3C0B890-D84D-47A7-97E6-566B904AEB7A}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateAppLog.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateAppLog.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateEmailLog.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateEmailLog.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreatePet.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreatePet.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreatePetHealthRecord.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreatePetHealthRecord.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreatePetRoutine.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreatePetRoutine.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateRecordFile.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateRecordFile.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateUser.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spCreateUser.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeleteFile.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeleteFile.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeletePet.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeletePet.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeleteRecord.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeleteRecord.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeleteRoutine.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spDeleteRoutine.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateEmailAddress.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateEmailAddress.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateField.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateField.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdatePasswordsql.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdatePasswordsql.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdatePet.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdatePet.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateRecord.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateRecord.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateRoutine.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateStoredProcedure_spUpdateRoutine.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_AppLogs.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_AppLogs.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_DbInfo.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_DbInfo.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_EmailLogs.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_EmailLogs.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_FieldsChanged.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_FieldsChanged.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_PetHealthRecords.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_PetHealthRecords.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_Pets.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_Pets.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_RecordFiles.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_RecordFiles.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_Routines.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_Routines.sql
+		C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_Users.sql = C:\Users\alivi\OneDrive - UWGB\UWGB Classes\CS372 Software Engineering\BusyPet Project\SQL Scripts\CreateTable_Users.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A98834AD-D03B-4867-AE73-11D3D55CAA6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98834AD-D03B-4867-AE73-11D3D55CAA6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98834AD-D03B-4867-AE73-11D3D55CAA6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98834AD-D03B-4867-AE73-11D3D55CAA6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1427D11-C2E9-42C7-8649-F0C9CAD5AC7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1427D11-C2E9-42C7-8649-F0C9CAD5AC7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1427D11-C2E9-42C7-8649-F0C9CAD5AC7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1427D11-C2E9-42C7-8649-F0C9CAD5AC7C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA31741A-1F9B-47E8-B654-6A232DD07DA8}
+	EndGlobalSection
+EndGlobal
